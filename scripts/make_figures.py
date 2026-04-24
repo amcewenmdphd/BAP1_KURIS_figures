@@ -502,7 +502,7 @@ def make_figure2(sheets):
     plot_histogram(ax_a, sheets['Fig2a_Consequence_Hist'],
                    'Variant_Type', vtype_order, VARIANT_TYPE_COLORS,
                    show_xlabel=False)
-    ax_a.set_xticklabels([])
+    ax_a.tick_params(axis='x', labelbottom=False)
     ax_a.text(-0.08, 1.02, 'a', fontsize=8, fontweight='bold',
               transform=ax_a.transAxes, va='top', ha='right')
 
@@ -515,7 +515,7 @@ def make_figure2(sheets):
     plot_histogram(ax_b, sheets['Fig2b_ClinVar_PLP_BLB'],
                    'ClinVar_Class', cv_order, CLINVAR_2026_COLORS,
                    show_xlabel=False)
-    ax_b.set_xticklabels([])
+    ax_b.tick_params(axis='x', labelbottom=False)
     ax_b.text(-0.08, 1.02, 'b', fontsize=8, fontweight='bold',
               transform=ax_b.transAxes, va='top', ha='right')
 
@@ -533,6 +533,7 @@ def make_figure2(sheets):
     plot_histogram(ax_c, sheets['Fig2c_KURIS_Hist'],
                    'Category', p3_order, PANEL3_COLORS,
                    show_xlabel=True)
+    ax_c.tick_params(axis='x', labelbottom=True)
     ax_c.text(-0.08, 1.02, 'c', fontsize=8, fontweight='bold',
               transform=ax_c.transAxes, va='top', ha='right')
 
@@ -543,6 +544,8 @@ def make_figure2(sheets):
     plot_contingency_table(ax_e, stats_kuris, 'KURIS/NDD Missense')
     ax_e.text(0.0, 0.68, 'e', fontsize=8, fontweight='bold',
               transform=ax_e.transAxes, va='bottom', ha='left')
+
+    fig.subplots_adjust(bottom=0.10)
 
     base = os.path.join(FIGURES_DIR, 'Figure2')
     plt.savefig(f'{base}.png', dpi=300, bbox_inches='tight')
