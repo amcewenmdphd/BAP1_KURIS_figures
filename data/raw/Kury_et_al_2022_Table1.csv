@@ -1,0 +1,30 @@
+Feature,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,Total
+Genomic_hg19,g.52443861G>T,g.52443861G>C,g.52443601C>T,g.52442599A>G,g.52442077C>G,g.52442078A>C,g.52442078A>G,g.52442078A>G,g.52441264T>C,g.52441264T>C,g.52436341C>T,11 variants de novo
+HGVS_c,c.34C>A,c.34C>G,c.91G>A,c.146T>C,c.272G>C,c.271T>G,c.271T>C,c.271T>C,c.506A>G,c.506A>G,c.2153G>A,
+HGVS_p,p.Pro12Thr,p.Pro12Ala,p.Glu31Lys,p.Leu49Pro,p.Cys91Ser,p.Cys91Gly,p.Cys91Arg,p.Cys91Arg,p.His169Arg,p.His169Arg,p.Arg718Gln,
+ClinVar_SCV,SCV001572228,SCV001738368,SCV001738369,SCV001738370,SCV001738372,SCV001738373,SCV001738374,SCV001738374,SCV001738375,SCV001738375,SCV001738376,
+MobiDetails_ID,22880,22881,22882,22883,22865,22884,22885,22885,22886,22886,22888,
+CADD_GRCh37_v1.6,26.5,25.7,29.4,29.7,26.1,28.5,29.1,29.1,25.7,25.7,24.4,
+gnomAD_v2.1.1,absent,absent,absent,absent,absent,absent,absent,absent,absent,absent,present (x1):4.7E-6,
+Metadome_tolerance,HI (0.13),HI (0.13),I (0.26),HI (0.11),I (0.35),I (0.35),I (0.35),I (0.35),I (0.34),I (0.34),SI (0.94),
+Method_of_variant_detection,ES,ES,ES,ES,ES,ES,ES,ES,ES,ES,ES and GS,
+Sex,female,male,female,male,female,female,male,female,male,female,female,7 F/4 M
+Age_at_last_investigation,10 years,3 years,14 years,6 years,11 years 5 months,15 years,1 years 11 months,4 years,16 years,8 years 4 months,12 years 1 month,1 year 11 month to 15 years
+Growth_failure,-,-,+,+,+,+,+,+,+,+,+,9/11
+Weight_kg_SD,36.2/+1.5,12.3/-1.5,48.6/+0.5,20/-0.99,26.5/-2,30/-4.35,12.17/+0.03,13.7/-1.28,50/-1.17,30/+1,26/-2.5,-4.35 to +1
+Height_cm_SD,128.5/-1.5,88.9/-1.5,149.4/-2.5,109.7/-2.44,116/-4.5,125.7/-6,78/-3.18,90/-2.71,142/-3.69,117.4/-2,135.3/-2,-6 to -1.5
+Head_circumference_cm_SD,51/-1,47.9/-2,56/+1,54.7/+1.67,52/-1,50/-2.86,49/+0.56,50/-0.01,53/-1.41,48/+0 at 27 months,54.5/+1,-2.86 to +1.67
+Developmental_delay_or_ID,+,+,+; mild,+,+; severe,+; severe,+,+,+,+,+,11/11
+Age_of_walking,18 months,19 months,18 months,2 years,not walking,not achieved,17 months,2.5 years,2 years,23 months,15 months,not applicable
+Speech_delay,+,+,+,+,+,+,+,+,+,+,+,11/11
+Hypotonia,-,+,+,+,+,+,-,+,-,+,-,7/11
+Seizures,+,-,-,-,+,-,-,+,+,+,+,6/11
+Behavioral_anomalies,+; ADHD,+; ASD,+; ADHD,+; ASD,N/A,+; ASD,-,+,+,+,+; ADHD,9/10
+Cardiac_anomalies,-,+,+,-,-,-,N/A,-,-,+; VSD,-,3/10
+Eye_anomalies,-,+,+,-,-,+,N/A,+,-,+,-,5/10
+Urogenital_kidney_anomalies,-,-,-,-,+,-,N/A,-,-,+,-,2/10
+Hands,-,+,-,+,-,+,-,-,+,-,-,4/11
+Feet,-,-,-,-,+,+,-,-,+,-,-,3/11
+Feeding_difficulties,-,-,+,-,N/A,+,N/A,+,-,+,N/A,4/8
+Facial_dysmorphism,+,+,+,+,+,+,+,+,+,+,-,10/11
+Other_recurrent_signs,-,hearing loss,frequent otitis,hypertrichosis,hypertrichosis,hypertrichosis,recurrent otitis,-,hearing loss,-,-,not applicable

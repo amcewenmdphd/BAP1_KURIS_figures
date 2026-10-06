@@ -1,0 +1,5 @@
+Truth set	Method	TP	FP	FN	TN	Indeterminate (path)	Indeterminate (benign)	Sensitivity	Specificity	PPV	NPV
+Clinical (ClinVar P/LP vs B/LB)	Waters	184	73	1	1098	0	0	0.995 (0.970–0.999)	0.938 (0.922–0.950)	0.716 (0.658–0.768)	0.999 (0.995–1.000)
+Clinical (ClinVar P/LP vs B/LB)	GMM	184	25	1	1133	0	13	0.995 (0.970–0.999)	0.978 (0.968–0.985)	0.880 (0.829–0.918)	0.999 (0.995–1.000)
+Molecular (Truncating vs Synonymous)	Waters	2797	123	56	1799	0	0	0.980 (0.975–0.985)	0.936 (0.924–0.946)	0.958 (0.950–0.965)	0.970 (0.961–0.977)
+Molecular (Truncating vs Synonymous)	GMM	2779	51	64	1854	10	17	0.977 (0.971–0.982)	0.973 (0.965–0.980)	0.982 (0.976–0.986)	0.967 (0.958–0.974)

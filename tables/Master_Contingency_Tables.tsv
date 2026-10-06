@@ -1,0 +1,29 @@
+Assignment method	Functional class	Class definition	Control set	Pathogenic controls (total)	Benign controls (total)	Pathogenic in class	Benign in class	Likelihood ratio	95% CI	Evidence strength	OddsPath (Tavtigian)	OddsPath 95% CI	OddsPath evidence
+GMM score cutoffs	Abnormal	score ≤ -0.0286	ClinVar Feb 2026 (all variants)	185	1171	184	25	46.59	(31.61–68.67)	PS3 Strong	44.59	(30.48–65.23)	PS3 Strong
+GMM score cutoffs	Normal	score ≥ -0.0197	ClinVar Feb 2026 (all variants)	185	1171	1	1133	0.0056	(0.0008–0.0395)	BS3 Strong	0.0111	(0.0028–0.0441)	BS3 Strong
+GMM score cutoffs	Abnormal	score ≤ -0.0286	ClinVar Feb 2026 (missense only)	21	28	21	0	56.68*	(3.63–885)	PS3 Strong	27.68	(4.03–190)	PS3 Strong
+GMM score cutoffs	Normal	score ≥ -0.0197	ClinVar Feb 2026 (missense only)	21	28	0	28	0.0231*	(0.0015–0.3584)	BS3 Strong	0.0471	(0.0069–0.3199)	BS3 Strong
+GMM score cutoffs	Abnormal	score ≤ -0.0286	ClinVar 2025 (all variants)	246	1065	245	26	40.80	(27.91–59.64)	PS3 Strong	39.16	(26.98–56.84)	PS3 Strong
+GMM score cutoffs	Normal	score ≥ -0.0197	ClinVar 2025 (all variants)	246	1065	1	1025	0.0042	(0.0006–0.0299)	BS3 Strong	0.0084	(0.0021–0.0335)	BS3 Strong
+GMM score cutoffs	Abnormal	score ≤ -0.0286	ClinVar 2025 (missense only)	13	11	13	0	23.14*	(1.53–350)	PS3 Strong	11.14	(1.70–73.18)	PS3 Moderate
+GMM score cutoffs	Normal	score ≥ -0.0197	ClinVar 2025 (missense only)	13	11	0	11	0.0373*	(0.0024–0.5682)	BS3 Strong	0.0779	(0.0117–0.5191)	BS3 Moderate
+Waters: SGE FDR + directionality	Abnormal	depleted	ClinVar Feb 2026 (all variants)	185	1171	184	73	15.95	(12.77–19.93)	PS3 Moderate	15.67	(12.56–19.54)	PS3 Moderate
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	ClinVar Feb 2026 (all variants)	185	1171	1	1098	0.0058	(0.0008–0.0407)	BS3 Strong	0.0115	(0.0029–0.0456)	BS3 Strong
+Waters: SGE FDR + directionality	Abnormal	depleted	ClinVar Feb 2026 (missense only)	21	28	21	1	28.00	(4.09–192)	PS3 Strong	13.84	(3.62–52.88)	PS3 Moderate
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	ClinVar Feb 2026 (missense only)	21	28	0	27	0.0240*	(0.0015–0.3717)	BS3 Strong	0.0488	(0.0072–0.3322)	BS3 Strong
+Tejura: SGE FDR + directionality	Abnormal	depleted	ClinVar 2025 (all variants)	246	1065	245	70	15.15	(12.08–19.01)	PS3 Moderate	14.89	(11.89–18.65)	PS3 Moderate
+Tejura: SGE FDR + directionality	Normal	unchanged	ClinVar 2025 (all variants)	246	1065	1	910	0.0048	(0.0007–0.0336)	BS3 Strong	0.0095	(0.0024–0.0377)	BS3 Strong
+Tejura: SGE FDR + directionality	Abnormal	depleted	ClinVar 2025 (missense only)	13	11	13	1	11.00	(1.70–71.28)	PS3 Moderate	5.57	(1.56–19.91)	PS3 Moderate
+Tejura: SGE FDR + directionality	Normal	unchanged	ClinVar 2025 (missense only)	13	11	0	10	0.0408*	(0.0027–0.6260)	BS3 Strong	0.0857	(0.0127–0.5763)	BS3 Moderate
+GMM score cutoffs	Abnormal	score ≤ -0.0286	KURIS/NDD vs B/LB missense	17	28	14	0	46.72*	(2.97–736)	PS3 Strong	22.56	(3.24–157)	PS3 Strong
+GMM score cutoffs	Normal	score ≥ -0.0197	KURIS/NDD vs B/LB missense	17	28	3	28	0.1765	(0.0632–0.4928)	BS3 Moderate	0.2302	(0.0967–0.5477)	BS3 Moderate
+Waters: SGE FDR + directionality	Abnormal	depleted	KURIS/NDD vs B/LB missense	17	28	15	1	24.71	(3.58–171)	PS3 Strong	12.08	(3.12–46.76)	PS3 Moderate
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	KURIS/NDD vs B/LB missense	17	28	2	27	0.1220	(0.0331–0.4494)	BS3 Moderate	0.1790	(0.0634–0.5053)	BS3 Moderate
+Tejura: SGE FDR + directionality	Abnormal	depleted	KURIS/NDD vs B/LB missense	17	28	15	1	24.71	(3.58–171)	PS3 Strong	12.08	(3.12–46.76)	PS3 Moderate
+Tejura: SGE FDR + directionality	Normal	unchanged	KURIS/NDD vs B/LB missense	17	28	2	23	0.1432	(0.0385–0.5325)	BS3 Moderate	0.2101	(0.0736–0.6003)	BS3 Moderate
+Waters: SGE FDR + directionality	Abnormal	depleted	Waters ClinVar ≥2* (Table 1)	0	6	0	0	—	not computable (n=0)	—	—	—	—
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	Waters ClinVar ≥2* (Table 1)	0	6	0	6	—	not computable (n=0)	—	—	—	—
+Waters: SGE FDR + directionality	Abnormal	depleted	Waters ClinVar ≥1* (Table 1)	7	6	7	0	13.12*	(0.9026–191)	PS3 Moderate	6.12	(0.9792–38.31)	PS3 Moderate
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	Waters ClinVar ≥1* (Table 1)	7	6	0	6	0.0673*	(0.0046–0.9932)	BS3 Moderate	0.1458	(0.0227–0.9351)	BS3 Moderate
+Waters: SGE FDR + directionality	Abnormal	depleted	Waters Systematic (Table 1)	2423	138	2419	4	34.44	(13.11–90.47)	PS3 Strong	27.74	(11.73–65.60)	PS3 Strong
+Waters: SGE FDR + directionality	Normal	unchanged + enriched	Waters Systematic (Table 1)	2423	138	4	134	0.0017	(0.0006–0.0045)	BS3 Very Strong	0.0021	(0.0009–0.0051)	BS3 Very Strong

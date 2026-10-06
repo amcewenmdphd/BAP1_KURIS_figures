@@ -1,0 +1,38 @@
+{
+  "source_file": "data/raw/Waters_ExtendedData1.xlsx",
+  "source_sheet": "extended_data_1",
+  "cvfg_annotation_source": "data/raw/BAP1_cvfg_annotations.tsv",
+  "cvfg_merge_key": "Ensembl HGVSc, genomic pos+ref+alt fallback",
+  "clinvar_2026_source": "data/raw/ClinVar_Feb_2026.txt",
+  "clinvar_timepoints": [
+    "2018-01 (CVFG)",
+    "2025-01 (CVFG)",
+    "2026-02 (paper)"
+  ],
+  "n_variants": 18108,
+  "exclusion_rule": "none; authors pre-filtered pam_flag=Y upstream, so ED1 as delivered is the calibration set",
+  "random_state": 54345,
+  "posterior_cutoff": 0.95,
+  "sklearn_version": "1.9.0",
+  "gmm_covariance_type": "full",
+  "gmm_tol": 0.001,
+  "gmm_max_iter": 100,
+  "gmm_reg_covar": 1e-06,
+  "gmm_n_iter_converged": 6,
+  "nonsense_window_hg38": [
+    52402674,
+    52409714
+  ],
+  "abnormal_cutoff": -0.028554417499749976,
+  "normal_cutoff": -0.019724569499949995,
+  "component_abnormal": {
+    "mean": -0.1572275319779032,
+    "sd": 0.04283832859350607,
+    "weight": 0.31479053156890235
+  },
+  "component_normal": {
+    "mean": 0.00032214029848036407,
+    "sd": 0.006414550319350183,
+    "weight": 0.6852094684310976
+  }
+}

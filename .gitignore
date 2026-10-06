@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Per-figure input files: rebuilt by each figure/table script from the source tables.
+data/figure_inputs/
+
+# Regenerable ClinVar/clinical intermediates: rebuilt by build_clinical_intermediates.py
+# from data/raw/. The two committed source tables (master + clinical) plus GMM_thresholds
+# are enough to reproduce everything; these are kept out to avoid large regenerable blobs.
+data/source/BAP1_ClinVar_SCV_curated.tsv
+data/source/BAP1_ClinVar_VCV_classified.tsv
+data/source/BAP1_ClinVar_PLP_by_condition.tsv
+data/source/BAP1_KURIS_NDD_merged.tsv
+data/source/BAP1_Cancer_P_LP_merged.tsv
