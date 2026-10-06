@@ -1,0 +1,9 @@
+id	chrom	pos	ref	alt	consequence	symbol	study	altprop_child	hgnc_id	HGVS_c	HGVS_p	transcript
+106141	3	52436397	CCGCA	C	frameshift_variant	BAP1	GDX	0.625	950	c.2093_2096del	p.(Val698GlyfsTer37)	NM_004656.4
+11650	3	52443866	C	G	missense_variant	BAP1	GDX	0.5625	950	c.29G>C	p.(Ser10Thr)	NM_004656.4
+37703	3	52442576	G	C	missense_variant	BAP1	GDX	0.467914439	950	c.169C>G	p.(Arg57Gly)	NM_004656.4
+44493	3	52442077	C	G	missense_variant	BAP1	GDX	0.470967742	950	c.272G>C	p.(Cys91Ser)	NM_004656.4
+66036	3	52436393	GC	G	frameshift_variant	BAP1	GDX	0.5	950	c.2100del	p.(Arg701AlafsTer35)	NM_004656.4
+DDD13k.05634	3	52440365	G	T	missense_variant	BAP1	DDD	0.461538462	950	c.687C>A	p.(Asn229Lys)	NM_004656.4
+DDD13k.07819	3	52443594	T	G	missense_variant	BAP1	DDD	0.443548387	950	c.98A>C	p.(Tyr33Ser)	NM_004656.4
+rumc_patient_1602	3	52437853	T	C	synonymous_variant	BAP1	RUMC	0.423529412	950	c.1308A>G	p.(Gln436=)	NM_004656.4
