@@ -65,6 +65,7 @@ Tables:
 | `table_waters_vs_gmm_performance.py` | sensitivity / specificity / PPV / NPV |
 | `table_supp1_kuris_blb_missense.py` | Supp Table 1 — KURIS/NDD + B/LB missense (HGVS g./c./p., score, domain, ClinVar; reference sequences in the footnote) |
 | `table_supp_figure1_variants.py` | Supp Table 2 — all Figure 1 variants (HGVS g./c./p., SGE + ClinVar) |
+| `table_main_variants.py` | Main-article Table 1 — all 58 Figure 1a variants (gene, HGNC ID, HGVS g./c./p., single-letter code); written to `tables/` only |
 | `table_supp2_phenotypic_overlap.py` | Supp Table 6 — proband vs KURIS-cohort phenotype overlap |
 
 Each table script writes an Excel workbook, a tab-separated file, and a typeset
