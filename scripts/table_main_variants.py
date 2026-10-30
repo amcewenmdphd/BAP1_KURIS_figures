@@ -41,15 +41,8 @@ CATEGORY_ORDER = ["KURIS/NDD (proband)", "KURIS/NDD",
                   "Cancer predisposition (ClinVar P/LP)", "ClinVar B/LB (control)"]
 GENE = "BAP1; HGNC:950"      # "BAP1" is italicized when rendered (rich_cols)
 
-TITLE = "Table 1. BAP1 missense variants described in this study."
-CAPTION = (
-    "All 58 missense variants shown in Figure 1a: the UDN proband variant "
-    "(p.Asn229Lys), the 17 KURIS/NDD pathogenic controls, the ClinVar "
-    "pathogenic/likely-pathogenic missense variants associated with BAP1 tumor "
-    "predisposition syndrome (TPDS), and the 28 ClinVar benign/likely-benign "
-    "missense controls. The single-letter notation is the variant label used in "
-    "Figures 1 and 2. SGE functional scores, ClinVar classifications, and the "
-    "clinical evidence for each variant are in Supplementary Tables 1 and 2.")
+TITLE = ("Table 1: All 58 missense variants shown in Figure 1A with gene symbol, HGNC ID, "
+         "HGVS g., HGVS c., HGVS p. and the corresponding shortened single-letter amino acid code")
 NOTE = [
     "HGVS descriptions use the reference sequences NC_000003.12 (GRCh38), "
     "NM_004656.4 (RefSeq MANE Select transcript), and NP_004647.1 (protein) "
@@ -113,7 +106,7 @@ def main():
         df.to_excel(w, sheet_name="Table1_Variants", index=False)
     df.to_csv(tsv, sep="\t", index=False)
     tablepdf.render_table_pdf(
-        _pdf_view(df), "Table1_Variants", title=TITLE, caption=CAPTION, note=NOTE,
+        _pdf_view(df), "Table1_Variants", title=TITLE, note=NOTE,
         group_cols=["Category"], orient="landscape", rich_cols=["Gene; HGNC ID"],
         aligns={"Variant": "center"})
     n = df["Variant Category"].value_counts()
