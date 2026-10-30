@@ -17,6 +17,7 @@ ORDER = [
     "table_waters_vs_gmm_performance.py",
     "table_supp1_kuris_blb_missense.py",
     "table_supp_figure1_variants.py",
+    "table_main_variants.py",       # main-article Table 1 (all variants shown in Fig 1a)
     "table_supp2_phenotypic_overlap.py",
     "figure1.py",
     "figure2.py",
